@@ -25,10 +25,14 @@ h1 {
 }
 /* Added google font to H1 for main pages */
 h1.page-header{
-    font-family: 'Roboto',sans-serif;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius:10px 10px 0 0;   
+    font-family: 'Roboto',sans-serif;  
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
 main.wrapper {
